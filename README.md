@@ -2,9 +2,9 @@
 
 ### Author: Mark Duenas
 
-[Test Reports](https://github.com/MarkDuenas/caps/actions)
+[Test Reports](https://github.com/MarkDuenas/socket-io-driver/actions)
 
-[Pull Req](https://github.com/MarkDuenas/caps/pull/2)
+[Pull Req](https://github.com/MarkDuenas/socket-io-driver/actions)
 
 ## Set up
 
