@@ -6,7 +6,9 @@ const host = "http://localhost:3000";
 
 const socket = io.connect(host);
 
-socket.on("pickup", (payload) => {
+socket.on("pickup", pickup);
+
+function pickup(payload) {
   setTimeout(() => {
     console.log("*** PICKUP EVENT *** ");
     console.log(new Date());
@@ -19,4 +21,6 @@ socket.on("pickup", (payload) => {
     console.log("*** DELIVERED EVENT ***");
     socket.emit("delivered", payload);
   }, 3000);
-});
+}
+
+module.exports = pickup;
